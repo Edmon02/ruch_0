@@ -6,6 +6,9 @@
 
 /* Content layout handled via Bootstrap in home.html */
 
+/* Background circles for animated effect */
+
+.background span { width: 30vmin; height: 30vmin; border-radius: 30vmin; backface-visibility: hidden; position: absolute; animation: move; animation-duration: 39s; animation-timing-function: linear; animation-iteration-count: infinite; }
 
 .background span:nth-child(1) { color: #183ed8; top: 91%; left: 92%; animation-duration: 100s; animation-delay: -1s; transform-origin: 13vw 14vh; box-shadow: -60vmin 0 8.36vmin currentColor; }
 .background span:nth-child(2) { color: #899fd2; top: 98%; left: 20%; animation-duration: 37s; animation-delay: -77s; transform-origin: 21vw -22vh; box-shadow: 60vmin 0 7.65vmin currentColor; }
